@@ -9,12 +9,15 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="213dp"
-        android:layout_height="69dp"
+        android:layout_width="165sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="75dp"
+        android:padding="5dp"
         android:background="@color/light_yellow"
         android:gravity="center"
         android:text="Hello World!"
         android:textSize="30sp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -24,11 +27,12 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="213dp"
-        android:layout_height="69dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textSize="30sp"
         android:gravity="center"
+        android:paddingBottom="100dp"
         android:background="@color/light_orange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,27 +42,29 @@
         app:layout_constraintVertical_bias="0.262" />
 
     <TextView
-        android:layout_width="213dp"
-        android:layout_height="69dp"
-        android:text="Hello World!"
-        android:textSize="30sp"
-        android:gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="125dp"
         android:background="@color/light_green"
+        android:gravity="center"
+        android:text="Hello World!"
+        android:textSize="50sp"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.735" />
+        app:layout_constraintVertical_bias="0.773" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="213dp"
-        android:layout_height="69dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@color/light_red"
         android:text="Hello World!"
         android:textSize="30sp"
         android:gravity="center"
+        android:layout_marginTop="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,8 +73,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="213dp"
-        android:layout_height="69dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textSize="30sp"
         android:gravity="center"
